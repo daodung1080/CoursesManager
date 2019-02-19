@@ -32,10 +32,14 @@ class TeacherClassDAO(context: Context) {
 
     /// Get data from table
 
-    fun getAllTeacherClass(): ArrayList<TeacherClass>{
+    fun getAllTeacherClass(coursesSeason: String): ArrayList<TeacherClass>{
         var list: ArrayList<TeacherClass> = ArrayList()
 
-        var query = "select * from "+ Constants().class_table
+        var classTable = Constants().class_table
+        var classSeason = Constants().class_courses_season
+
+        var query = "select * from $classTable where $classSeason like '$coursesSeason' "
+
         var sqLiteDatabase = database.readableDatabase
         var cursor = sqLiteDatabase.rawQuery(query,null)
         if(cursor != null){
@@ -56,5 +60,4 @@ class TeacherClassDAO(context: Context) {
 
         return list
     }
-
 }

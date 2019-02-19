@@ -40,7 +40,7 @@ class TeacherCousesDAO(context: Context) {
                 while (cursor.moveToNext()){
                     var cName = cursor.getString(cursor.getColumnIndex(Constants().courses_name))
                     var cSeason = cursor.getString(cursor.getColumnIndex(Constants().courses_season))
-                    var cAmount = cursor.getInt(cursor.getColumnIndex(Constants().courses_name))
+                    var cAmount = cursor.getInt(cursor.getColumnIndex(Constants().courses_amount))
 
                     var teacherCourses = TeacherCourses(cName,cSeason,cAmount)
                     list.add(teacherCourses)
@@ -49,6 +49,22 @@ class TeacherCousesDAO(context: Context) {
             }
         }
 
+        return list
+    }
+
+    fun getAllCoursesSeason(): ArrayList<String>{
+        var list: ArrayList<String> = ArrayList()
+        var query = "select * from "+ Constants().courses_table
+        var sqLiteDatabase = database.readableDatabase
+        var cursor = sqLiteDatabase.rawQuery(query,null)
+        if(cursor != null){
+            if(cursor.count > 0){
+                while (cursor.moveToNext()){
+                    var coursesSeason = cursor.getString(cursor.getColumnIndex(Constants().courses_season))
+                    list.add(coursesSeason)
+                }
+            }
+        }
         return list
     }
 

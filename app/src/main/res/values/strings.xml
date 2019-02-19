@@ -8,11 +8,21 @@
     <string name="txtLoginStudent">Student</string>
     <string name="txtLoginTeacher">Teacher</string>
 
+    <!--Student-->
+    <string name="FullName">Fullname:</string>
+    <string name="StudentID">Student ID:</string>
+
     <!--Sign Up-->
     <string name="edtStudentID">Student ID</string>
     <string name="edtFullname">Full Name</string>
     <string name="btnSignUp">Sign Up</string>
     <string name="title_activity_teacher">TeacherActivity</string>
+
+    <string name="error_student_id">Student ID must have 5 characters</string>
+    <string name="error_student_fullname">Student Full Name must bigger than 5 characters</string>
+    <string name="error_student_password">Student Password must bigger than 5 characters</string>
+    <string name="error_student_done">Sign Up Sucessfully</string>
+    <string name="error_student_cancel">Sign Up Failed because matches Student ID with Someone</string>
 
     <!--Bottom Navigation Teacher-->
     <string name="title_courses_insert">Insert Courses</string>
@@ -40,6 +50,9 @@
     <string name="error_courses_done">Insert Courses Sucessfully</string>
     <string name="error_courses_cancel">Insert Courses Failed because matches Season</string>
 
+    <string name="CoursesName">Course Season:</string>
+    <string name="CoursesRemainSlot">Slot Remain:</string>
+
     <!--Main Screen Student-->
     <string name="txtCoursesMain">Courses</string>
     <string name="txtMapMain">Maps</string>
@@ -60,6 +73,18 @@
     <string name="Friday">Friday</string>
     <string name="Saturday">Saturday</string>
     <string name="Sunday">Sunday</string>
+
+    <string name="error_class_name">Class Name must bigger than 5 characters</string>
+    <string name="error_class_schedule">Please Pick Schedule for Class</string>
+    <string name="error_class_exam">Please Pick Date for Exam</string>
+    <string name="error_class_format">Please Insert Courses Before Add Class</string>
+    <string name="error_class_done">Insert Class Sucessfully</string>
+    <string name="error_class_cancel">Insert Class Failed</string>
+
+    <string name="ClassName">Class Name:</string>
+    <string name="ClassSchedule">Class Schedule:</string>
+    <string name="DateExam">Exam Date:</string>
+    <string name="title_dialog_class">Class in Courses</string>
 
 
     <!--News Activity-->

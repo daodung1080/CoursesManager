@@ -15,7 +15,7 @@
             android:id="@+id/tilClassName"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            app:counterMaxLength="5"
+            app:counterMaxLength="40"
             app:counterEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

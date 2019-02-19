@@ -10,4 +10,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="img_main_size">100dp</dimen>
+    <dimen name="img_remove">35dp</dimen>
+    <dimen name="img_list_background">40dp</dimen>
 </resources>

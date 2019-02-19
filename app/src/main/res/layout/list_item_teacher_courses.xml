@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding_size"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/img_list_background"
+            android:src="@drawable/img_list"
+            android:layout_weight="1"/>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/layout_padding_size"
+            android:layout_gravity="center">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/CoursesName"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/CoursesRemainSlot"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/layout_padding_size">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCoursesName"
+                android:gravity="center"
+                android:text="Testing"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCoursesRemainSlot"
+                android:gravity="center"
+                android:text="Testing"/>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/img_remove"
+            android:src="@drawable/img_remove"
+            android:id="@+id/imgRemoveCourses"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+</LinearLayout>

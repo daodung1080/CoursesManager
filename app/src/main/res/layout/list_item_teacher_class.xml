@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/layout_padding_size"
+        android:weightSum="10">
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_padding_size">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/ClassName"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/ClassSchedule"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/DateExam"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.5"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/layout_padding_size"
+            android:padding="@dimen/layout_padding_size">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtClassName"
+                android:gravity="center"
+                android:text="Testing"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtClassSchedule"
+                android:gravity="center"
+                android:text="Testing"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtClassExamDate"
+                android:gravity="center"
+                android:text="Testing"/>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:src="@drawable/img_remove"
+            android:id="@+id/imgRemoveClass"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+</LinearLayout>

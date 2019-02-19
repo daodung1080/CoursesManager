@@ -1,0 +1,78 @@
+<resources>
+    <!--Login-->
+    <string name="app_name">Mob201_Assignment</string>
+    <string name="edtUsername">Username</string>
+    <string name="edtPassword">Password</string>
+    <string name="btnLoginConfirm">Confirm</string>
+    <string name="txtSignUp">Sign Up to be a Student</string>
+    <string name="txtLoginStudent">Student</string>
+    <string name="txtLoginTeacher">Teacher</string>
+
+    <!--Sign Up-->
+    <string name="edtStudentID">Student ID</string>
+    <string name="edtFullname">Full Name</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="title_activity_teacher">TeacherActivity</string>
+
+    <!--Bottom Navigation Teacher-->
+    <string name="title_courses_insert">Insert Courses</string>
+    <string name="title_courses_list">Courses and Class List</string>
+    <string name="title_student_list">Remove Student</string>
+    <string name="title_class_insert">Insert Class</string>
+
+    <!--Bottom Navigation Student-->
+    <string name="title_activity_student_courses">StudentCoursesActivity</string>
+    <string name="title_student_courses">Participate Courses</string>
+    <string name="title_student_courses_list">Courses Joined List</string>
+    <string name="title_student_exam_list">Exam Date</string>
+
+    <!--Insert Courses In Teacher Activity-->
+    <string name="edtCoursesName">Courses Name</string>
+    <string name="btnPickDate">Pick Date</string>
+    <string name="edtCoursesAmount">Courses Amount</string>
+    <string name="btnInsertCourses">Insert Courses</string>
+    <string name="edtPickDateCourses">Pick Season for Courses</string>
+    
+    <string name="error_courses_name">Courses Name must bigger than 5 characters</string>
+    <string name="error_courses_season">Please Pick Up Courses Season</string>
+    <string name="error_courses_amount">Courses Amount must be bigger than 0</string>
+    <string name="error_courses_amount_format">Courses Amount must be a number</string>
+    <string name="error_courses_done">Insert Courses Sucessfully</string>
+    <string name="error_courses_cancel">Insert Courses Failed because matches Season</string>
+
+    <!--Main Screen Student-->
+    <string name="txtCoursesMain">Courses</string>
+    <string name="txtMapMain">Maps</string>
+    <string name="txtNewsMain">News</string>
+    <string name="txtShareMain">Share</string>
+
+    <!--Insert Class In Teacher Activity-->
+    <string name="edtClassName">Class Name</string>
+    <string name="edtPickNumberOfDay">Pick Schedule Of Class</string>
+    <string name="btnPickNumberOfDay">Pick Days</string>
+    <string name="edtPickDateExam">Pick Date exam for Class</string>
+    <string name="btnInsertClass">Insert Class</string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+
+    <!--News Activity-->
+    <string name="titleWebViewDialog">Web View</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Facebook Function-->
+    <string name="facebook_app_id">319684832226870</string>
+    <string name="fb_login_protocol_scheme">fb319684832226870</string>
+
+    <!--Student Participate Courses-->
+    <string name="txtStudentCoursesRegistration">Courses Registration</string>
+    <string name="txtStudentRegistrationSeason">Courses Season</string>
+    <string name="btnStudentCoursesSearch">Search Class by Courses Season</string>
+
+</resources>

@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/layout_padding_size"
+        android:padding="@dimen/list_padding_size"
         android:orientation="horizontal"
         android:weightSum="10">
 
@@ -15,7 +15,7 @@
     <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="3.2"
             android:orientation="vertical"
             android:paddingLeft="@dimen/layout_padding_size"
             android:layout_gravity="center">
@@ -56,6 +56,6 @@
             android:src="@drawable/img_remove"
             android:id="@+id/imgRemoveCourses"
             android:layout_gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="0.8"/>
 
 </LinearLayout>

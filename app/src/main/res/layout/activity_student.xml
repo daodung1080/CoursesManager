@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".Student.StudentActivity"
+        tools:context=".student.StudentActivity"
         android:background="@color/dungCustom1"
         android:padding="@dimen/layout_padding_size"
         android:gravity="center">

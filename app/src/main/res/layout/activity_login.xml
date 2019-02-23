@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LoginSignup.LoginActivity"
+        tools:context=".loginsignup.LoginActivity"
         android:padding="@dimen/layout_padding_size"
         android:background="@color/dungCustom1">
 
@@ -36,7 +36,7 @@
             app:counterEnabled="true"
             app:counterMaxLength="20"
             android:id="@+id/tilUsername"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/toggleLogin">
 
         <android.support.design.widget.TextInputEditText

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="@dimen/list_padding_size"
+        android:paddingRight="@dimen/list_padding_size"
+        android:paddingBottom="@dimen/list_padding_size"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Spinner
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="3"
+                android:id="@+id/spnYearPick"
+                android:background="@drawable/ic_bg_spinner"></Spinner>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:id="@+id/spnSeasonPick"
+            android:layout_weight="7"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_bg_spinner"></Spinner>
+
+</LinearLayout>

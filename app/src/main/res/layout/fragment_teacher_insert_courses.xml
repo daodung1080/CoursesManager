@@ -60,8 +60,8 @@
             app:layout_constraintTop_toBottomOf="@+id/tilCoursesName"/>
 
     <Button
-            android:text="@string/btnPickDate"
-            android:layout_width="wrap_content"
+            android:text="@string/btnPickSeason"
+            android:layout_width="100dp"
             android:background="@drawable/ic_btn_confirm"
             android:textColor="@color/dungCustom1"
             android:textSize="@dimen/btn_text_size"
@@ -72,30 +72,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"/>
-
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/btnPickDateCourses"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            app:counterMaxLength="2"
-            app:counterEnabled="true"
-            android:id="@+id/tilCoursesAmount">
-
-        <android.support.design.widget.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:id="@+id/edtCoursesAmount"
-                android:textSize="@dimen/edt_text_size"
-                android:hint="@string/edtCoursesAmount"/>
-    </android.support.design.widget.TextInputLayout>
 
     <Button
             android:text="@string/btnInsertCourses"
@@ -112,6 +88,6 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/tilCoursesAmount"/>
+            app:layout_constraintTop_toBottomOf="@+id/txtPickDate"/>
 
 </android.support.constraint.ConstraintLayout>

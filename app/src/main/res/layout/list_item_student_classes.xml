@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/list_padding_size"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/img_list_background"
+            android:src="@drawable/img_class"
+            android:layout_weight="1"/>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/layout_padding_size"
+            android:layout_gravity="center">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/ClassName"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.7"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/layout_padding_size">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStudentClass"
+                android:text="Lap trinh android"/>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.8"
+            android:layout_gravity="center"
+            android:src="@drawable/img_find"
+            android:id="@+id/imgFindClass"
+            android:layout_marginRight="5dp"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/img_remove"
+            android:src="@drawable/img_joinclass"
+            android:id="@+id/imgJoinClass"
+            android:layout_gravity="center"
+            android:layout_weight="2"/>
+
+</LinearLayout>

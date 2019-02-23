@@ -8,7 +8,7 @@
 
     <item
             android:id="@+id/navigation_dashboard"
-            android:icon="@drawable/img_class"
+            android:icon="@drawable/img_student"
             android:title="@string/title_student_courses_list"/>
 
     <item

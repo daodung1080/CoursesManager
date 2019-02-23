@@ -5,5 +5,5 @@
           android:layout_width="match_parent"
           android:layout_height="match_parent"
           android:id="@+id/map"
-          tools:context=".Student.Maps.StudentMapsActivity"
+          tools:context=".student.maps.StudentMapsActivity"
           android:name="com.google.android.gms.maps.SupportMapFragment"/>
